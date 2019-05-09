@@ -1,0 +1,36 @@
+{
+  "name": "full-stack-test",
+  "version": "1.0.0",
+  "description": "A small React and NodeJs test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarchbold/full-stack-test.git"
+  },
+  "author": "aarchbold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarchbold/full-stack-test/issues"
+  },
+  "homepage": "https://github.com/aarchbold/full-stack-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4"
+  }
+}
